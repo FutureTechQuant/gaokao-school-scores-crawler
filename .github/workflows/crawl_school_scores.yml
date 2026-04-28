@@ -1,0 +1,175 @@
+name: 爬取大学最低分数据
+
+run-name: >-
+  学校最低分 ${{ inputs.mode || 'test' }}
+  #${{ github.run_number }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '爬取模式'
+        required: true
+        type: choice
+        options:
+          - test
+          - sample
+          - full
+        default: test
+
+  schedule:
+    - cron: '0 3 1 * *'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: crawl-school-scores-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: 设置Python环境
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 创建数据目录
+        run: |
+          mkdir -p data/school_scores
+          mkdir -p data/school_scores_progress
+
+      - name: 检查学校数据
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f data/schools.json || (echo "缺少 data/schools.json，请先更新学校数据" && exit 1)
+          echo "检测到学校索引文件: data/schools.json"
+
+      - name: 解析模式
+        id: context
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_MODE: ${{ github.event.inputs.mode }}
+        run: |
+          set -euo pipefail
+
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            MODE="full"
+          else
+            MODE="${INPUT_MODE:-test}"
+          fi
+
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+
+      - name: 执行当前批次
+        id: school_score_run
+        shell: bash
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          SCORE_MODE: ${{ steps.context.outputs.mode }}
+        run: |
+          set -euo pipefail
+
+          case "$SCORE_MODE" in
+            test)
+              export SAMPLE_SCHOOLS=3
+              ;;
+            sample)
+              export SAMPLE_SCHOOLS=20
+              ;;
+            full)
+              export SAMPLE_SCHOOLS=0
+              ;;
+            *)
+              echo "未知模式: $SCORE_MODE"
+              exit 1
+              ;;
+          esac
+
+          export SCHOOL_SCORE_PROGRESS_FILE="data/school_scores_progress/progress.json"
+          export SCHOOL_SCORE_PROGRESS_DIR="data/school_scores_progress"
+          export SCHOOL_SCORE_DATA_DIR="data/school_scores"
+          export SCHOOL_SCORE_RUN_DEADLINE_SECONDS=17400
+          export SCHOOL_SCORE_FLUSH_SCHOOLS=25
+          export SCHOOL_DATA_FILE="data/schools.json"
+
+          python scripts/run_school_scores_once.py             --mode "$SCORE_MODE"             --github-output "$GITHUB_OUTPUT"
+
+      - name: 提交结果
+        id: commit_changes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A data/school_scores data/school_scores_progress
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "本轮没有文件变化"
+            exit 0
+          fi
+
+          git commit -m "🏫 学校最低分 [${{ steps.context.outputs.mode }}] #${{ github.run_number }}"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: 调度下一次运行
+        if: steps.school_score_run.outputs.run_status == 'partial' || steps.school_score_run.outputs.run_status == 'paused'
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          API_ROOT="https://api.github.com/repos/${GITHUB_REPOSITORY}"
+          WORKFLOW_FILE=".github/workflows/crawl_school_scores.yml"
+
+          WORKFLOW_ID="$({
+            curl -sS               -H 'Accept: application/vnd.github+json'               -H "Authorization: Bearer ${GITHUB_TOKEN}"               -H 'X-GitHub-Api-Version: 2022-11-28'               "${API_ROOT}/actions/workflows"             | jq -r --arg wf "$WORKFLOW_FILE" '.workflows[] | select(.path == $wf or (.path | endswith("/" + $wf)) or .name == $wf) | .id'             | head -n 1
+          })"
+
+          if [ -z "${WORKFLOW_ID:-}" ] || [ "$WORKFLOW_ID" = "null" ]; then
+            echo "未找到目标 workflow: ${WORKFLOW_FILE}"
+            exit 1
+          fi
+
+          PAYLOAD="$({
+            jq -nc               --arg ref "${GITHUB_REF_NAME}"               --arg mode "${{ steps.context.outputs.mode }}"               '{ref: $ref, inputs: {mode: $mode}}'
+          })"
+
+          HTTP_CODE="$({
+            curl -sS               -o /tmp/dispatch_response.txt               -w '%{http_code}'               -X POST               -H 'Accept: application/vnd.github+json'               -H "Authorization: Bearer ${GITHUB_TOKEN}"               -H 'X-GitHub-Api-Version: 2022-11-28'               "${API_ROOT}/actions/workflows/${WORKFLOW_ID}/dispatches"               -d "$PAYLOAD"
+          })"
+
+          if [ "$HTTP_CODE" != "204" ] && [ "$HTTP_CODE" != "200" ]; then
+            echo "调度失败，HTTP ${HTTP_CODE}"
+            cat /tmp/dispatch_response.txt
+            exit 1
+          fi
+
+          echo "已调度下一次学校最低分运行"

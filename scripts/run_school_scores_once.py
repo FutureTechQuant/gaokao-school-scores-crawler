@@ -8,14 +8,15 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from crawlers.plans import PlanCrawler
+from crawlers.school_scores import SchoolScoreCrawler
 
 
 def write_output(path: str, key: str, value):
     if not path:
         return
     with open(path, 'a', encoding='utf-8') as f:
-        f.write(f'{key}={value}\n')
+        f.write(f'{key}={value}
+')
 
 
 def load_school_ids():
@@ -54,9 +55,6 @@ def load_school_ids():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--year', required=True)
-    parser.add_argument('--province-id', required=True)
-    parser.add_argument('--province-index', required=True)
     parser.add_argument('--mode', required=True)
     parser.add_argument('--github-output', default='')
     args = parser.parse_args()
@@ -64,25 +62,15 @@ def main():
     school_ids = load_school_ids()
 
     if not school_ids:
-        write_output(args.github_output, 'run_year', args.year)
-        write_output(args.github_output, 'run_province_id', args.province_id)
-        write_output(args.github_output, 'run_province_index', args.province_index)
         write_output(args.github_output, 'run_status', 'skipped')
         write_output(args.github_output, 'saved_documents', 0)
         write_output(args.github_output, 'completed_schools', 0)
-        print({'year': args.year, 'province_id': args.province_id, 'status': 'skipped'})
+        print({'status': 'skipped'})
         return
 
-    crawler = PlanCrawler()
-    result = crawler.crawl(
-        school_ids=school_ids,
-        years=args.year,
-        province_ids=[args.province_id],
-    )
+    crawler = SchoolScoreCrawler()
+    result = crawler.crawl(school_ids=school_ids)
 
-    write_output(args.github_output, 'run_year', result.get('year', args.year))
-    write_output(args.github_output, 'run_province_id', args.province_id)
-    write_output(args.github_output, 'run_province_index', args.province_index)
     write_output(args.github_output, 'run_status', result.get('status', 'skipped'))
     write_output(args.github_output, 'saved_documents', result.get('saved_documents', 0))
     write_output(args.github_output, 'completed_schools', result.get('completed_schools', 0))

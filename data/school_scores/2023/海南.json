@@ -1,0 +1,129 @@
+{
+  "update_time": "2026-04-28 00:53:24",
+  "year": "2023",
+  "province_id": "46",
+  "province": "海南",
+  "count": 10,
+  "data": [
+    {
+      "school_id": "612",
+      "school_name": "广东职业技术学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "475",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "616",
+      "school_name": "广东建设职业技术学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "496",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "855",
+      "school_name": "天津商务职业学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "437",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1226",
+      "school_name": "联勤保障部队工程大学",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "669",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1298",
+      "school_name": "北京理工大学珠海学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "563",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1908",
+      "school_name": "厦门兴才职业技术学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "250",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2480",
+      "school_name": "仲恺农业工程学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "567",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2610",
+      "school_name": "广东第二师范学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "579",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2847",
+      "school_name": "华北理工大学冀唐学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "552",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3269",
+      "school_name": "海南体育职业技术学院",
+      "province_id": "46",
+      "province": "海南",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "436",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    }
+  ]
+}

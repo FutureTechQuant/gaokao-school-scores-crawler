@@ -1,0 +1,129 @@
+{
+  "update_time": "2026-04-28 00:54:19",
+  "year": "2023",
+  "province_id": "31",
+  "province": "上海",
+  "count": 10,
+  "data": [
+    {
+      "school_id": "40",
+      "school_name": "中央音乐学院",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "304",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "572",
+      "school_name": "北京建筑大学",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "506",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "746",
+      "school_name": "石家庄邮电职业技术学院",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "208",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "793",
+      "school_name": "四川建筑职业技术大学",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "208",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1115",
+      "school_name": "北京邮电大学世纪学院",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "409",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1327",
+      "school_name": "天津海运职业学院",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "201",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2559",
+      "school_name": "苏州高博职业学院",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "171",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2621",
+      "school_name": "中国人民解放军海军大连舰艇学院",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "530",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3259",
+      "school_name": "福州墨尔本理工职业学院",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "125",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3353",
+      "school_name": "上饶幼儿师范高等专科学校",
+      "province_id": "31",
+      "province": "上海",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "158",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    }
+  ]
+}

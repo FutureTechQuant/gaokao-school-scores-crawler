@@ -1,0 +1,69 @@
+{
+  "update_time": "2026-04-28 00:51:32",
+  "year": "2023",
+  "province_id": "11",
+  "province": "北京",
+  "count": 5,
+  "data": [
+    {
+      "school_id": "40",
+      "school_name": "中央音乐学院",
+      "province_id": "11",
+      "province": "北京",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "336",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "311",
+      "school_name": "上海师范大学",
+      "province_id": "11",
+      "province": "北京",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "582",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1298",
+      "school_name": "北京理工大学珠海学院",
+      "province_id": "11",
+      "province": "北京",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "474",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2847",
+      "school_name": "华北理工大学冀唐学院",
+      "province_id": "11",
+      "province": "北京",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "490",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2992",
+      "school_name": "中国人民解放军陆军边海防学院",
+      "province_id": "11",
+      "province": "北京",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "545",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "update_time": "2026-04-28 00:54:38",
+  "year": "2023",
+  "province_id": "33",
+  "province": "浙江",
+  "count": 11,
+  "data": [
+    {
+      "school_id": "40",
+      "school_name": "中央音乐学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "366",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "572",
+      "school_name": "北京建筑大学",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "594",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "583",
+      "school_name": "首钢工学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "500",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1298",
+      "school_name": "北京理工大学珠海学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "532",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1619",
+      "school_name": "白城职业技术学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "461",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1831",
+      "school_name": "安徽机电职业技术学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "433",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2223",
+      "school_name": "苏州托普信息职业技术学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "379",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2276",
+      "school_name": "贵阳信息科技学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "511",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2290",
+      "school_name": "海南政法职业学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "457",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2847",
+      "school_name": "华北理工大学冀唐学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "537",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3390",
+      "school_name": "广西蓝天航空职业学院",
+      "province_id": "33",
+      "province": "浙江",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "286",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    }
+  ]
+}

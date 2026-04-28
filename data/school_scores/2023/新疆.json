@@ -1,0 +1,141 @@
+{
+  "update_time": "2026-04-28 00:55:32",
+  "year": "2023",
+  "province_id": "65",
+  "province": "新疆",
+  "count": 11,
+  "data": [
+    {
+      "school_id": "40",
+      "school_name": "中央音乐学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "214",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "951",
+      "school_name": "赣西科技职业学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "224",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1298",
+      "school_name": "北京理工大学珠海学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "358",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2138",
+      "school_name": "山东圣翰财贸职业学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "231",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2290",
+      "school_name": "海南政法职业学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "268",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2512",
+      "school_name": "山东文化产业职业学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "190",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2621",
+      "school_name": "中国人民解放军海军大连舰艇学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "412",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2651",
+      "school_name": "辽宁城市建设职业技术学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "178",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3191",
+      "school_name": "重庆资源与环境保护职业学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "167",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3360",
+      "school_name": "日照航海工程职业学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "170",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3505",
+      "school_name": "九江理工职业学院",
+      "province_id": "65",
+      "province": "新疆",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "159",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    }
+  ]
+}

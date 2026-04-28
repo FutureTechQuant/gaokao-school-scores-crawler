@@ -225,8 +225,6 @@ class SchoolScoreCrawler(BaseCrawler):
             if isinstance(sample_data, dict):
                 for key, value in sample_data.items():
                     print(f'         {key:20} = {value}')
-            print('      ' + '─' * 50 + '
-')
             self._first_logged = True
 
         for province_id, score_data in province_score_min.items():

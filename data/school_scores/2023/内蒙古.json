@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:55:14",
+  "update_time": "2026-06-01 08:53:59",
   "year": "2023",
   "province_id": "15",
   "province": "内蒙古",
-  "count": 23,
+  "count": 25,
   "data": [
     {
       "school_id": "40",
@@ -277,6 +277,30 @@
       "type": "1",
       "type_name": "文科",
       "min_score": "262",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3219",
+      "school_name": "广东酒店管理职业技术学院",
+      "province_id": "15",
+      "province": "内蒙古",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "268",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3259",
+      "school_name": "福州墨尔本理工职业学院",
+      "province_id": "15",
+      "province": "内蒙古",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "276",
       "year": "2023",
       "batch": null,
       "min_rank": null

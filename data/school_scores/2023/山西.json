@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:54:38",
+  "update_time": "2026-06-01 08:53:59",
   "year": "2023",
   "province_id": "14",
   "province": "山西",
-  "count": 35,
+  "count": 38,
   "data": [
     {
       "school_id": "40",
@@ -421,6 +421,42 @@
       "type": "2",
       "type_name": "理科",
       "min_score": "251",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2610",
+      "school_name": "广东第二师范学院",
+      "province_id": "14",
+      "province": "山西",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "485",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2689",
+      "school_name": "海南工商职业学院",
+      "province_id": "14",
+      "province": "山西",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "180",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3259",
+      "school_name": "福州墨尔本理工职业学院",
+      "province_id": "14",
+      "province": "山西",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "281",
       "year": "2023",
       "batch": null,
       "min_rank": null

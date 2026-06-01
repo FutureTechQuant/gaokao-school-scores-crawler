@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:58:41",
+  "update_time": "2026-06-01 08:38:39",
   "year": "2024",
   "province_id": "37",
   "province": "山东",
-  "count": 45,
+  "count": 46,
   "data": [
     {
       "school_id": "188",
@@ -541,6 +541,18 @@
       "type": "3",
       "type_name": "综合",
       "min_score": "608",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1404",
+      "school_name": "海南经贸职业大学",
+      "province_id": "37",
+      "province": "山东",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "435",
       "year": "2024",
       "batch": null,
       "min_rank": null

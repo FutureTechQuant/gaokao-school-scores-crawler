@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:58:21",
+  "update_time": "2026-06-01 08:51:43",
   "year": "2024",
   "province_id": "14",
   "province": "山西",
-  "count": 52,
+  "count": 53,
   "data": [
     {
       "school_id": "527",
@@ -625,6 +625,18 @@
       "type": "1",
       "type_name": "文科",
       "min_score": "553",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2885",
+      "school_name": "赣州师范高等专科学校",
+      "province_id": "14",
+      "province": "山西",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "334",
       "year": "2024",
       "batch": null,
       "min_rank": null

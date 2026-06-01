@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:58:45",
+  "update_time": "2026-06-01 08:40:20",
   "year": "2025",
   "province_id": "37",
   "province": "山东",
-  "count": 2066,
+  "count": 2070,
   "data": [
     {
       "school_id": "30",
@@ -24793,6 +24793,54 @@
       "type": "3",
       "type_name": "综合",
       "min_score": "494",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "565",
+      "school_name": "北京电子科技学院",
+      "province_id": "37",
+      "province": "山东",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "640",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "592",
+      "school_name": "北京语言大学",
+      "province_id": "37",
+      "province": "山东",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "587",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1311",
+      "school_name": "军事航天部队航天工程大学",
+      "province_id": "37",
+      "province": "山东",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "620",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1622",
+      "school_name": "长春医药职业学院",
+      "province_id": "37",
+      "province": "山东",
+      "type": "3",
+      "type_name": "综合",
+      "min_score": "286",
       "year": "2025",
       "batch": null,
       "min_rank": null

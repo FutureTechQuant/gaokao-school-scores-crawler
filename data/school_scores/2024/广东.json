@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:58:21",
+  "update_time": "2026-06-01 08:51:43",
   "year": "2024",
   "province_id": "44",
   "province": "广东",
-  "count": 30,
+  "count": 31,
   "data": [
     {
       "school_id": "840",
@@ -361,6 +361,18 @@
       "type": "2073",
       "type_name": "类型2073",
       "min_score": "586",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2885",
+      "school_name": "赣州师范高等专科学校",
+      "province_id": "44",
+      "province": "广东",
+      "type": "2074",
+      "type_name": "类型2074",
+      "min_score": "355",
       "year": "2024",
       "batch": null,
       "min_rank": null

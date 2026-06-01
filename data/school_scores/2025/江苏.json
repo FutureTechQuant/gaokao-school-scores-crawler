@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-05-01 06:11:53",
+  "update_time": "2026-06-01 08:53:25",
   "year": "2025",
   "province_id": "32",
   "province": "江苏",
-  "count": 1541,
+  "count": 1546,
   "data": [
     {
       "school_id": "30",
@@ -18493,6 +18493,66 @@
       "type": "2073",
       "type_name": "类型2073",
       "min_score": "451",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "105",
+      "school_name": "华南理工大学",
+      "province_id": "32",
+      "province": "江苏",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "637",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "388",
+      "school_name": "湖南科技大学",
+      "province_id": "32",
+      "province": "江苏",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "542",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "394",
+      "school_name": "长春工程学院",
+      "province_id": "32",
+      "province": "江苏",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "501",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1622",
+      "school_name": "长春医药职业学院",
+      "province_id": "32",
+      "province": "江苏",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "331",
+      "year": "2025",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3224",
+      "school_name": "江苏财会职业学院",
+      "province_id": "32",
+      "province": "江苏",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "292",
       "year": "2025",
       "batch": null,
       "min_rank": null

@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:53:42",
+  "update_time": "2026-06-01 08:37:13",
   "year": "2023",
   "province_id": "44",
   "province": "广东",
-  "count": 17,
+  "count": 18,
   "data": [
     {
       "school_id": "40",
@@ -205,6 +205,18 @@
       "type": "2074",
       "type_name": "类型2074",
       "min_score": "314",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1199",
+      "school_name": "金山职业技术学院",
+      "province_id": "44",
+      "province": "广东",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "323",
       "year": "2023",
       "batch": null,
       "min_rank": null

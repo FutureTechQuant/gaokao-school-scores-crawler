@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:58:41",
+  "update_time": "2026-06-01 08:51:43",
   "year": "2024",
   "province_id": "42",
   "province": "湖北",
-  "count": 39,
+  "count": 41,
   "data": [
     {
       "school_id": "282",
@@ -469,6 +469,30 @@
       "type": "2073",
       "type_name": "类型2073",
       "min_score": "591",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1404",
+      "school_name": "海南经贸职业大学",
+      "province_id": "42",
+      "province": "湖北",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "423",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2885",
+      "school_name": "赣州师范高等专科学校",
+      "province_id": "42",
+      "province": "湖北",
+      "type": "2074",
+      "type_name": "类型2074",
+      "min_score": "387",
       "year": "2024",
       "batch": null,
       "min_rank": null

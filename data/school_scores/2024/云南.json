@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-05-01 06:27:49",
+  "update_time": "2026-06-01 08:54:15",
   "year": "2024",
   "province_id": "53",
   "province": "云南",
-  "count": 811,
+  "count": 814,
   "data": [
     {
       "school_id": "149",
@@ -9733,6 +9733,42 @@
       "type": "2",
       "type_name": "理科",
       "min_score": "308",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1843",
+      "school_name": "安徽新闻出版职业技术学院",
+      "province_id": "53",
+      "province": "云南",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "262",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2139",
+      "school_name": "山东力明科技职业学院",
+      "province_id": "53",
+      "province": "云南",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "260",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3319",
+      "school_name": "昭通卫生职业学院",
+      "province_id": "53",
+      "province": "云南",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "351",
       "year": "2024",
       "batch": null,
       "min_rank": null

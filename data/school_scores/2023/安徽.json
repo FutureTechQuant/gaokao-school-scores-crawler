@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:55:51",
+  "update_time": "2026-06-01 08:53:59",
   "year": "2023",
   "province_id": "34",
   "province": "安徽",
-  "count": 26,
+  "count": 27,
   "data": [
     {
       "school_id": "40",
@@ -313,6 +313,18 @@
       "type": "1",
       "type_name": "文科",
       "min_score": "276",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3259",
+      "school_name": "福州墨尔本理工职业学院",
+      "province_id": "34",
+      "province": "安徽",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "303",
       "year": "2023",
       "batch": null,
       "min_rank": null

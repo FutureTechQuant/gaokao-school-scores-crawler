@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:56:11",
+  "update_time": "2026-06-01 08:53:59",
   "year": "2023",
   "province_id": "63",
   "province": "青海",
-  "count": 44,
+  "count": 46,
   "data": [
     {
       "school_id": "523",
@@ -529,6 +529,30 @@
       "type": "2",
       "type_name": "理科",
       "min_score": "252",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1814",
+      "school_name": "淮南职业技术学院",
+      "province_id": "63",
+      "province": "青海",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "250",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3259",
+      "school_name": "福州墨尔本理工职业学院",
+      "province_id": "63",
+      "province": "青海",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "319",
       "year": "2023",
       "batch": null,
       "min_rank": null

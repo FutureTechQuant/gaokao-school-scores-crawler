@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:56:29",
+  "update_time": "2026-06-01 08:51:10",
   "year": "2024",
   "province_id": "15",
   "province": "内蒙古",
-  "count": 32,
+  "count": 34,
   "data": [
     {
       "school_id": "481",
@@ -385,6 +385,30 @@
       "type": "1",
       "type_name": "文科",
       "min_score": "501",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1404",
+      "school_name": "海南经贸职业大学",
+      "province_id": "15",
+      "province": "内蒙古",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "220",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2689",
+      "school_name": "海南工商职业学院",
+      "province_id": "15",
+      "province": "内蒙古",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "162",
       "year": "2024",
       "batch": null,
       "min_rank": null

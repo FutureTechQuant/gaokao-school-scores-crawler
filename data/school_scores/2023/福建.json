@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:54:00",
+  "update_time": "2026-06-01 08:38:39",
   "year": "2023",
   "province_id": "35",
   "province": "福建",
-  "count": 32,
+  "count": 35,
   "data": [
     {
       "school_id": "40",
@@ -385,6 +385,42 @@
       "type": "2073",
       "type_name": "类型2073",
       "min_score": "395",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "837",
+      "school_name": "天津滨海职业学院",
+      "province_id": "35",
+      "province": "福建",
+      "type": "2074",
+      "type_name": "类型2074",
+      "min_score": "374",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "974",
+      "school_name": "顺德职业技术大学",
+      "province_id": "35",
+      "province": "福建",
+      "type": "2074",
+      "type_name": "类型2074",
+      "min_score": "426",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1404",
+      "school_name": "海南经贸职业大学",
+      "province_id": "35",
+      "province": "福建",
+      "type": "2073",
+      "type_name": "类型2073",
+      "min_score": "404",
       "year": "2023",
       "batch": null,
       "min_rank": null

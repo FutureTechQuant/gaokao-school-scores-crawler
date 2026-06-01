@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-05-01 06:11:53",
+  "update_time": "2026-06-01 08:53:59",
   "year": "2023",
   "province_id": "62",
   "province": "甘肃",
-  "count": 47,
+  "count": 49,
   "data": [
     {
       "school_id": "40",
@@ -565,6 +565,30 @@
       "type": "1",
       "type_name": "文科",
       "min_score": "364",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2689",
+      "school_name": "海南工商职业学院",
+      "province_id": "62",
+      "province": "甘肃",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "160",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3259",
+      "school_name": "福州墨尔本理工职业学院",
+      "province_id": "62",
+      "province": "甘肃",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "340",
       "year": "2023",
       "batch": null,
       "min_rank": null

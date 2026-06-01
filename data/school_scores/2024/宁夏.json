@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-05-01 06:08:21",
+  "update_time": "2026-06-01 08:38:22",
   "year": "2024",
   "province_id": "64",
   "province": "宁夏",
-  "count": 41,
+  "count": 42,
   "data": [
     {
       "school_id": "659",
@@ -493,6 +493,18 @@
       "type": "1",
       "type_name": "文科",
       "min_score": "325",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "1335",
+      "school_name": "新疆轻工职业技术学院",
+      "province_id": "64",
+      "province": "宁夏",
+      "type": "1",
+      "type_name": "文科",
+      "min_score": "269",
       "year": "2024",
       "batch": null,
       "min_rank": null

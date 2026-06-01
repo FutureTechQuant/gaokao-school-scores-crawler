@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:56:11",
+  "update_time": "2026-06-01 08:53:59",
   "year": "2023",
   "province_id": "52",
   "province": "贵州",
-  "count": 35,
+  "count": 37,
   "data": [
     {
       "school_id": "40",
@@ -421,6 +421,30 @@
       "type": "1",
       "type_name": "文科",
       "min_score": "228",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2689",
+      "school_name": "海南工商职业学院",
+      "province_id": "52",
+      "province": "贵州",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "421",
+      "year": "2023",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3259",
+      "school_name": "福州墨尔本理工职业学院",
+      "province_id": "52",
+      "province": "贵州",
+      "type": "2",
+      "type_name": "理科",
+      "min_score": "368",
       "year": "2023",
       "batch": null,
       "min_rank": null

@@ -1,9 +1,9 @@
 {
-  "update_time": "2026-04-28 00:58:21",
+  "update_time": "2026-06-01 08:53:26",
   "year": "2024",
   "province_id": "13",
   "province": "河北",
-  "count": 55,
+  "count": 58,
   "data": [
     {
       "school_id": "565",
@@ -661,6 +661,42 @@
       "type": "2073",
       "type_name": "类型2073",
       "min_score": "566",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2885",
+      "school_name": "赣州师范高等专科学校",
+      "province_id": "13",
+      "province": "河北",
+      "type": "2074",
+      "type_name": "类型2074",
+      "min_score": "406",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "2949",
+      "school_name": "湖北体育职业学院",
+      "province_id": "13",
+      "province": "河北",
+      "type": "2074",
+      "type_name": "类型2074",
+      "min_score": "354",
+      "year": "2024",
+      "batch": null,
+      "min_rank": null
+    },
+    {
+      "school_id": "3202",
+      "school_name": "香港中文大学（深圳）",
+      "province_id": "13",
+      "province": "河北",
+      "type": "2074",
+      "type_name": "类型2074",
+      "min_score": "630",
       "year": "2024",
       "batch": null,
       "min_rank": null
